@@ -19,7 +19,16 @@ Matplotlib: For plotting the bar chart.
 Pandas: For handling and analyzing the emoji dataset.
 Emoji: For rendering and manipulating emoji text.
 Pillow (PIL): To handle emoji images if needed.
+You can install the dependencies by running:
 
+bash
+Copy code
+pip install matplotlib pandas emoji pillow
+Usage
+Clone the repository to your local machine:
+
+bash
+Copy code
 git clone https://github.com/your-username/Emoji-Use.git
 Prepare your emoji usage dataset in CSV format with at least the following columns:
 
@@ -28,6 +37,14 @@ Count: The frequency of the emoji.
 Context: The context or meaning of the emoji use.
 Update the file path in the script to point to your CSV file:
 
+python
+Copy code
+file_path = 'emoji_usage_dataset.csv'
+Run the script to display the most popular emojis and generate the plot:
+
+bash
+Copy code
+python EmojiUse.py
 The plot will show the top emojis with a focus on counts between 150 and 225, complete with a stylish purple border.
 
 License
